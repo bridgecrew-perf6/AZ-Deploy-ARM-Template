@@ -26,4 +26,4 @@ jobs:
           scope: resourcegroup
           subscriptionId: 9380ebef-70e0-4add-ac1c-3b38e0abc825
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: https://github.com/sykogee/AZ-Deploy-ARM-Template/azuredeploy.json
+          template: https://github.com/sykogee/AZ-Deploy-ARM-Template/blob/main/azuredeploy.json
