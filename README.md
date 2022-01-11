@@ -1,2 +1,2 @@
-# AZ-Deplopy-ARM-Template
+# AZ-Deploy-ARM-Template
 Deploying my first ARM template with GitHub Actions
