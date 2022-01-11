@@ -26,4 +26,4 @@ jobs:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ env.AZURE_RESOURCE_GROUP }}
-          template: $GITHUB_WORKSPACE/azdeploy.json
+          template: sykogee/AZ-Deploy-ARM-Template/azdeploy.json
