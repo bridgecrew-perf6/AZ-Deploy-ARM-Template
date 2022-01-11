@@ -21,7 +21,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Deploy ARM Template
-        uses: azure/arm-deploy@14c04c0
+        uses: azure/arm-deploy@v1.0.6
         with:
           scope: resourcegroup
           subscriptionId: ${{ env.AZURE_SUBSCRIPTION_ID }}
